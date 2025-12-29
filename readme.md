@@ -40,7 +40,7 @@ Proyek ini membuktikan bahwa integrasi antara *Data Streaming* dan *Cloud Machin
 ## 📊 Visualization & Monitoring
 Dashboard dibangun menggunakan **Looker Studio** yang terhubung langsung ke BigQuery untuk visualisasi real-time.
 
-![Dashboard Preview](dashboard-preview.png)
+![Dashboard Preview](preview.png)
 
 ### Key Insights:
 1. **Dynamic Alerting**: Menggunakan *Conditional Formatting* untuk memberikan peringatan visual instan (Warna Merah) saat anomali terdeteksi.
