@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "WeatherRecord",
+  "namespace": "com.weather",
+  "fields": [
+    { "name": "latitude", "type": ["null", "float"], "default": null },
+    { "name": "longitude", "type": ["null", "float"], "default": null },
+    { "name": "temperature", "type": ["null", "float"], "default": null },
+    { "name": "humidity", "type": ["null", "float"], "default": null },
+    { "name": "wind_speed", "type": ["null", "float"], "default": null },
+    { "name": "timestamp", "type": ["null", "string"], "default": null }
+  ]
+}

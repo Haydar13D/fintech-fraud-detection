@@ -1,0 +1,32 @@
+[
+  {
+    "name": "latitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "longitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "temperature",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "humidity",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "wind_speed",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "timestamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]
