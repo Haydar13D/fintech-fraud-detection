@@ -19,7 +19,7 @@ Sistem ini menggunakan arsitektur *Serverless* untuk menjamin skalabilitas:
 - **Data Format**: JSON Streaming
 
 ## 📁 Struktur Folder
-- `/src`: Berisi skrip Python `publisher.py` (simulator transaksi).
+
 - `/sql`: Berisi skrip SQL untuk pembuatan tabel, ETL View, dan ML Model.
 - `README.md`: Dokumentasi proyek.
 
@@ -36,6 +36,18 @@ Sistem ini menggunakan arsitektur *Serverless* untuk menjamin skalabilitas:
 
 ## 📝 Kesimpulan
 Proyek ini membuktikan bahwa integrasi antara *Data Streaming* dan *Cloud Machine Learning* dapat menciptakan sistem keamanan finansial yang proaktif, mengurangi potensi kerugian nasabah dengan konfirmasi instan saat transaksi mencurigakan terjadi.
+
+## 📊 Visualization & Monitoring
+Dashboard dibangun menggunakan **Looker Studio** yang terhubung langsung ke BigQuery untuk visualisasi real-time.
+
+![Dashboard Preview](dashboard-preview.png)
+
+### Key Insights:
+1. **Dynamic Alerting**: Menggunakan *Conditional Formatting* untuk memberikan peringatan visual instan (Warna Merah) saat anomali terdeteksi.
+2. **Probability Scoring**: Menampilkan kolom `probability_of_fraud` yang dihasilkan oleh BQML untuk membantu prioritas investigasi.
+3. **Time-Series Analysis**: Memantau lonjakan nominal transaksi secara historis.
+
+🔗 [Akses Dashboard Interaktif](https://lookerstudio.google.com/reporting/c1632f1b-3c19-4f53-a390-50ab5f6c2e14)
 
 ---
 *Proyek ini dikembangkan sebagai bagian dari tugas akhir sistem pemrosesan data streaming.*
